@@ -195,8 +195,10 @@ with col2:
                 ctx_parts.append(f"[{i}] Source: {r['source']}\n{r['text']}")
             context_str = "\n\n".join(ctx_parts)
             prompt = (
-                "Use ONLY the context below to answer the question. Be concise. "
+                "Use ONLY the context below to answer the question. Be eleborative. "
+                "Cite sources in square brackets like [1] referencing the numbered context blocks. "
                 "If the answer is not present in the context, say 'Not found in documents.'\n\n"
+                f"Context:\n{context_str}\n\nQuestion: {query}"
             )
 
             answer = generate_llm_response(prompt, groq_key, model=model, temperature=temperature, max_tokens=max_tokens)
