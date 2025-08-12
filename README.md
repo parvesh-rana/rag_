@@ -30,20 +30,30 @@ pip install -r requirements.txt
 streamlit run main.py  
 ```
 # Here is the final model RAG usecases  
+
 The outlook of RAG model   
+
 ![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20075727.png)  
 
 Here you have to insert groq key i.e = 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   
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20075759.png")  
+
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20075759.png)  
 
 Then upload the document by clicking Browse files:   
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20080625.png")  
+
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20080625.png)  
 
 Now by clicking on Build/Rebuild index generate vecotor index of embeddings.   
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20080725.png")  
 
-Ask you question:  
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20081307.png")  
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20084429.png")  
-![]("https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20084448.png")
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20080725.png)  
+
+Ask you question:   
+
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20081307.png)  
+
+
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20084429.png)  
+
+![](https://github.com/parvesh-rana/rag_/blob/main/images/Screenshot%202025-08-12%20084448.png)
+
 
